@@ -1,0 +1,3 @@
+dependency_overrides: 
+  menthe_annotation:
+    path: ../menthe_annotation

@@ -1,0 +1,10 @@
+name: menthe_annotation
+description: menthe annotations for generator
+repository: https://github.com/rIIh/menthe
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  meta: ^1.7.0
+  riverpod: ^2.4.0

@@ -1,0 +1,25 @@
+name: example
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependency_overrides: 
+  menthe_annotation:
+    path: ../../menthe_annotation
+
+dependencies:
+  flutter:
+    sdk: flutter
+  menthe_annotation:
+    path: ../../menthe_annotation
+
+dev_dependencies:
+  build_runner:
+  menthe_generator:
+    path: ../
+
+flutter:
+  uses-material-design: true
